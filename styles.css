@@ -192,10 +192,10 @@
 }
 /* Hero Section*/
 
-.hero{
-    background-image: url('.images\ frame1.png');
-    background-color: black;
-    padding: 200px;
+.hero {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 200px 0;
 }
 
 .hero__container {
@@ -203,19 +203,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
     height: 90%;
     text-align: center;
     padding: 30px;
 }
 
 .hero__heading {
+    font-family: 'Lemonada';
     font-size: 100px;
     margin-bottom: 24px;
     color:#fff;
 }
 
 .hero__heading span {
+    font-family: 'Lemonada';
+    background: #00c2ff;
+    background: -webkit-linear-gradient(to right, #65fd58, #00c2ff);
+    background: linear-gradient(to right, #65fd58, #00c2ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text,
+    -webkit-text-fill: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.hero__description {
+    font-family:'Nunito';
+    font-size: 60px;
     background: #65fd58;
     background: -webkit-linear-gradient(to right, #65fd58, #6941aa, #123fde);
     background: linear-gradient(to right,  #65fd58, #722ce2, #123fde);
@@ -226,22 +241,11 @@
     -moz-text-fill-color: transparent;
 }
 
-.hero__description {
-    font-size: 60px;
-    background: #65fd58;
-    background: -webkit-linear-gradient(to right, #65fd58, #6941aa, #123fde);
-    background: linear-gradient(to right,  #65fd58, #722ce2, #123fde);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill: transparent;
-    -moz-text-fill-color: transparent;
-}
-
 .highlight {
     border-bottom: 4px solid rgb(132, 0, 255);
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     .hero__heading{
         font-size:60px;
     }
