@@ -192,15 +192,10 @@
 }
 /* Hero Section*/
 
-.hero {
-    background-image: url('.images\frame1.png');
-    background-size: cover;
-    background-color: black;
-    padding: 200px 0;
-}
 .hero{
-    background-repeat: no-repeat;
-    background-size 100% 100%;
+    background-image: url('.images\ frame1.png');
+    background-color: black;
+    padding: 200px;
 }
 
 .hero__container {
