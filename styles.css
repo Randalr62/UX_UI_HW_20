@@ -37,7 +37,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -87,8 +87,8 @@
     outline: none;
     border-radius: 4px;
     background: #65fd58;
-    background: -webkit-linear-gradient(to right, #65fd58, #6941aa, #123fde);
-    background: linear-gradient(to right,  #65fd58, #722ce2, #123fde);
+    background: -webkit-linear-gradient(to right, #65fd58, #0ce7a5, #00c2ff);
+    background: linear-gradient(to right,  #65fd58, #0ce7a5, #00c2ff);
     color: #fff;
     transition: all 0.3s ease;
 }
@@ -217,23 +217,25 @@
 }
 
 .hero__heading span {
-    font-family: 'Lemonada';
-    background: #00c2ff;
-    background: -webkit-linear-gradient(to right, #65fd58, #00c2ff);
-    background: linear-gradient(to right, #65fd58, #00c2ff);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text,
-    -webkit-text-fill: transparent;
-    -moz-text-fill-color: transparent;
+font-family: 'Lemonada';
+background: #00c2ff;
+background: -webkit-linear-gradient (to bottom, #65fd58, #00c2ff);
+background: linear-gradient (to bottom, #65fd58, #00c2ff);
+background-size: 100%;
+align-items: center;
+text-decoration: none;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill: transparent;
+-moz-text-fill-color: transparent;
 }
 
 .hero__description {
     font-family:'Nunito';
     font-size: 60px;
     background: #65fd58;
-    background: -webkit-linear-gradient(to right, #65fd58, #6941aa, #123fde);
-    background: linear-gradient(to right,  #65fd58, #722ce2, #123fde);
+    background: -webkit-linear-gradient(to bottom, #65fd58, #6941aa, #123fde);
+    background: linear-gradient(to bottom,  #65fd58, #722ce2, #123fde);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -254,3 +256,99 @@
         font-size: 40px;
     }
 }
+/* Design Section */
+
+    .main {
+        background-color:#131313;
+        padding: 10rem 0;
+    }
+    
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 90%;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 50px;
+    }
+
+    .main__content {
+        color: #fff;
+        width: 100%
+    }
+
+    .main__content h1{
+        font-size: 4rem;
+        background-color: #00c2ff;
+        background-image: linear-gradient(to top, #65fd58 0%, #00c2ff 100%);
+        background-size: 100%;
+        font-family: 'Amita';
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        padding: 20px 60px;
+        margin-top: 2rem;
+    }
+
+    .main__img--container {
+        text-align: center;
+    }
+
+
+
+    .card-img--card{
+        margin: 0px;
+        height: 300px;
+        width: 1550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: linear-gradient(to right, #00dbde 0%, #65fd65)
+    }
+
+    .fa-layer-group, .fa-users {
+        font-size: 14rem;
+    }
+
+    #card-2 {
+        
+    }
+
+    .card-img1 {
+        background: #131313;
+        margin: 0px;
+        height: 300px;
+        width: 1550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-img2 {
+        background: #131313;
+        margin: 10px;
+        height: 300px;
+        width: 1550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .card-img3{
+        background: #131313;
+        background-color:#131313
+        margin: 10px;
+        height: 300px;
+        width: 1550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
