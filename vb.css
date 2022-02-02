@@ -96,7 +96,7 @@
 .navbar__links:hover {
     color: #00c2ff;
     transition: all 0.3s ease;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 @media screen and (max-width: 960px){
@@ -190,7 +190,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
-    
+
     /* Hero Section*/
 
 .image {
@@ -274,7 +274,7 @@ text-decoration: underline;
     .image__heading{
         font-size: 30px;
     }
-    
+
     .image__role{
         font-size: 10px;
     }
@@ -334,7 +334,7 @@ text-decoration: underline;
     .overview__heading{
         font-size: 30px;
     }
-    
+
     .overview__role{
         font-size: 10px;
     }
@@ -411,94 +411,96 @@ text-decoration: underline;
 /* Persona Section */
 
 .persona{
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
-    padding: 20px 0;
+  background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
+  padding: 20px 0;
 }
 
 .persona__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 90%;
-    text-align: center;
-    padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
 }
 
 .persona__heading{
-    color:#fff;
-    font-family:'Lemonada';
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    font-size: 40px;
-    text-decoration: underline;
-    margin-bottom: 24px;
-    color:#fff;
+  color:#fff;
+  font-family:'Lemonada';
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 24px;
+  color:#fff;
 }
 
 .persona__description {
-    font-family:'Nunito';
-    font-size: 20px;
-    color: #fff;
-    display:flex;
-    justify-content: right;
-    align-items: right;
-    padding: 0 3rem;
-    width: 100%;
+  font-family:'Nunito';
+  font-size: 20px;
+  color: #fff;
+  display:flex;
+  justify-content: right;
+  align-items: right;
+  padding: 0 3rem;
+  width: 100%;
 }
     /* Definition/ Ideation */
 
     .definiton{
-        background: #000000;
-        background: linear-gradient(to right, #161616, #000000);
-        padding: 20px 0;
+      background: #000000;
+      background: linear-gradient(to right, #161616, #000000);
+      padding: 20px 0;
+    }
+
+    #definition-sec {
+      background: #000;
     }
 
     .definition__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 90%;
-    text-align: center;
-    padding: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      height: 90%;
+      text-align: center;
+      padding: 30px;
     }
-    
-    .definition__heading{
-    color:#fff;
-    font-family:'Lemonada';
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    font-size: 40px;
-    text-decoration: underline;
-    margin-bottom: 24px;
-    }
-    
-    .definition__description {
-        font-family:'Nunito';
-        font-size: 20px;
-        color: #fff;
-        display:flex;
-        justify-content: right;
-        align-items: right;
-        padding: 0 3rem;
-        width: 100%;
-    }
-    
-    .card{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: space-evenly;
-        margin: 0, 0, 0;
-        margin-bottom: 24px;
-        color:#fff !Important;
 
+    .definition__heading{
+      color:#fff;
+      font-family:'Lemonada';
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      font-size: 40px;
+      text-decoration: underline;
+      margin-bottom: 24px;
+    }
+
+    .definition__description {
+      font-family:'Nunito';
+      font-size: 20px;
+      color: #fff;
+      display:flex;
+      justify-content: right;
+      align-items: right;
+      padding: 0 3rem;
+      width: 100%;
+    }
+
+    .card{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: space-evenly;
+      margin: 0, 0, 0;
+      margin-bottom: 24px;
     }
